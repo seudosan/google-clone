@@ -70,7 +70,7 @@ body {
     height: 44px;
     padding: 0 14px;
     margin: 24px auto;
-    width: 20rem;
+    width: auto;
     border-radius: 26px;
     display: flex;
     justify-content: center;
@@ -83,4 +83,11 @@ body {
     fill: rgb(154, 160, 166);
     width: 20px;
     padding-right: 1.4px;
+}
+.search__input {
+    color: white;
+    outline: none;
+    background: none;
+    height: 34px;
+    appearance: none;
 }
