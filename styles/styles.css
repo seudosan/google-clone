@@ -71,9 +71,10 @@ body {
     padding: 0 14px;
     margin: 24px auto;
     width: auto;
+    max-width: 584px;
     border-radius: 26px;
     display: flex;
-    justify-content: center;
+    justify-content: stretch;
 }
 .search__border:hover {
     border: none;
@@ -82,12 +83,21 @@ body {
 .search__lens {
     fill: rgb(154, 160, 166);
     width: 20px;
-    padding-right: 1.4px;
+    padding-right: 12px;
+    padding-left: 4px;
 }
 .search__input {
+    padding-top: 4px;
+    font-size: 1.4rem;
+    width: auto;
+    height: 34px;
     color: white;
     outline: none;
+    border: none;
     background: none;
     height: 34px;
     appearance: none;
+}
+.search__mphone {
+    width: 26px;
 }
