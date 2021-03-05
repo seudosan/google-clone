@@ -76,7 +76,11 @@ body {
     display: flex;
     justify-content: stretch;
 }
-.search__border:hover {
+.search__container:hover {
+    border: none;
+    background-color:#bdc1c61f;   
+}
+.search__container:focus-within {
     border: none;
     background-color:#bdc1c61f;   
 }
