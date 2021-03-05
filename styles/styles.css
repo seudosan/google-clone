@@ -65,10 +65,10 @@ body {
     align-items: flex-end;
     justify-content: center;
 }
-.search__border {
+.search__container {
     border: 1px rgb(95, 99, 104) solid ;
     height: 44px;
-    padding: 0 14px;
+    padding: 0 4px;
     margin: 24px auto;
     width: auto;
     max-width: 584px;
@@ -83,11 +83,10 @@ body {
 .search__lens {
     fill: rgb(154, 160, 166);
     width: 20px;
-    padding-right: 12px;
-    padding-left: 4px;
+    padding: 0 14px;
 }
 .search__input {
-    padding-top: 4px;
+    padding-top: 5px;
     font-size: 1.4rem;
     width: auto;
     height: 34px;
@@ -97,7 +96,9 @@ body {
     background: none;
     height: 34px;
     appearance: none;
+    flex-grow: 1;
 }
 .search__mphone {
-    width: 26px;
+    width: 24px;
+    margin: 0 14px;
 }
