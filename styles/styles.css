@@ -142,10 +142,23 @@ body {
 .languages__link {
     color: #a0b7f6;
 }
-.country {
-    color: rgba(255, 255, 255, 0.54);
+.footer {
     background-color: #171717;
+}
+.footer-country {
+    color: rgba(255, 255, 255, 0.54);
     font-size: 1.5rem;
     padding: 15px 30px;
+    margin: 0;
     border-bottom: 1px solid rgb(33, 35, 39);
+}
+.footer-links {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-links__a {
+    text-decoration: none;
+    color: rgb(153, 157, 162);
+    padding: 15px;
 }
