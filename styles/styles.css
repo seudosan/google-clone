@@ -144,6 +144,10 @@ body {
 }
 .footer {
     background-color: #171717;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
 }
 .footer-country {
     color: rgba(255, 255, 255, 0.54);
@@ -155,10 +159,19 @@ body {
 .footer-links {
     padding: 0 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    
+}
+.footer-links__container {
+    display: flex;
+
 }
 .footer-links__a {
     text-decoration: none;
+    font-size: 1.4rem;
     color: rgb(153, 157, 162);
     padding: 15px;
+}
+.footer-links__a:hover {
+    text-decoration: underline;
 }
